@@ -1,0 +1,31 @@
+@import "../styles/variables.scss";
+
+.header {
+  padding: 1rem 0 3rem;
+}
+
+.title {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-item {
+  color: var(--dark-grey);
+  font-size: 1rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--brand);
+  }
+}
+
+.nav-item-active {
+  color: var(--brand);
+}
